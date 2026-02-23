@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="getupTODRL">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GetupTODRL</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+        <a class="navbar-item" href="">
+        <span class="icon">
+            <i class="fas fa-home"></i>
+        </span>
+        </a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            More Related Research
+          </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://vinmotionresearch2026.github.io/GetupTODRL/" target="_blank">GetupTODRL</a>
+            <!-- <a class="navbar-item" href="https://binghao-huang.github.io/touch_in_the_wild/" target="_blank">Touch in the Wild</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+              <h1 class="title is-2 publication-title" style="background: linear-gradient(90deg, #90ee90 0%, #228b22 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+                  Pickup Momentum: Whole-Body Optimal Pick-and-Place of Heavy Payloads on </br>
+                  Humanoids with Trajectory Optimization and Model Predictive Control
+              </h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=eF7sD5IAAAAJ&hl=en">Chuong Nguyen</a><sup>1,2*</sup>,</span>
+              <span class="author-block">
+                <a href="">Dai Nhan Duong </a><sup>1</sup></span>
+              <span class="author-block">
+                <a href="https://scholar.google.com.vn/citations?user=GMXpwRIAAAAJ&hl=vi">Hoang Vu Dao</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://huy-quang-dao.github.io/">Quang Huy Dao</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=hZGzoFwAAAAJ&hl=en">Van Truong Nguyen </a><sup>1</sup></span>
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=s5_69i0AAAAJ&hl=en">Quan Nguyen </a><sup>1,2</sup></span>
+                <h3 style="text-align: center;font-size: 80%; color: #2d2e2e"> 
+                  <sup>1</sup> Vinmotion
+                  <sup>2</sup> USC
+                  <br>
+                  <sup>*</sup> Equal contribution &nbsp;&nbsp; <sup>**</sup> Work Done at Vinmotion
+                  <!-- <br>
+                  <sup>†</sup> Corresponding author -->
+                </h3> 
+            </div>
+            <div class="image-container"> 
+              <img style="display: inline-block; width: 30%;" src="images/Vinmotion_logo.png"/> &nbsp &nbsp &nbsp
+              <img style="display: inline-block; width: 20%;" src="images/USC-Logo.png"/>  
+          </div>
+          <br>
+          <!-- <h1 class="title is-4 publication-title">
+            Conference on Robot Learning (CoRL) 2026<br>
+          </h1> -->
+          <div class="columns is-centered has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="https://vinmotionresearch2026.github.io/GetupTODRL/" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- <span class="link-block">
+                <a href="https://openreview.net/forum?id=bOVF8Rj33i#discussion"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Open Review</span>
+                </a>
+              </span> -->
+              <!-- <span class="link-block">
+                <a href="https://docs.google.com/presentation/d/1XrH4J4JiR9n73kellCOaZleBYaGdC-xz4VoLP30GDFg/edit?usp=sharing" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Poster</span>
+                </a>
+              </span> -->
+
+
+              <span class="link-block">
+                <a href="https://vinmotionresearch2026.github.io/GetupTODRL/" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+              <!-- <span class="link-block">
+                <a href="" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-twitter"></i>
+                  </span>
+                  <span>Twitter</span>
+                </a>
+              </span> -->
+              <span class="link-block">
+                <a href="https://vinmotionresearch2026.github.io/GetupTODRL/" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="overall teaser"></section>
+    <div class="columns is-centered has-text-centered">
+      <div class="container">
+        <div class="column is-full-width">
+          <h2 class="title is-3">
+            VinMotion - Motion 2  </h2>
+          <video id="teaser_video" width=99% muted autoplay controls loop style="border-radius:10px; ">
+            <source src="./videos/VinMotion - Motion 2.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Can humanoid robots lift and manipulate payloads com-
+              parably to human’s level? More fundamentally, how can we
+              maximize a humanoid robot’s effective “muscle” capability
+              through whole-body coordination? Fortunately, recent ad-
+              vances in humanoid hardware and control have enabled sub-
+              stantial progress in loco-manipulation (cite) and bimanual
+              manipulation (cite), allowing robots to interact with, carry,
+              and place objects in structured settings. However, the fun-
+              damental capability—pickup control remains underexplored
+              (cite). Most existing approaches assume a predefined initial
+              posture or grasp configuration, which significantly limits
+              their applicability in real-world scenarios. Also, have not
+              leverage the coordination of the whole-body dynamics to
+              maximize its lifting capability. 1 We envision that unlocking
+              robust and optimized pick-up-and-place behaviors is essen-
+              tial for deploying humanoid robots in practical daily and
+              industrial tasks. To this end, we investigate how humanoid
+              robots can jointly optimize its pick-up posture and its whole-
+              body trajectory, enabling strength-efficient and dynamically
+              feasible payload manipulation and locomotion.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Architecture</h2>
+          <div class="content has-text-justified">
+            <img src="images/method_2.png" alt="" style="width: 100%;" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <section class="section">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Simulation Results</h2>
+          <div class="columns is-variable is-6 is-multiline">
+            <!-- <div class="column is-full">
+              <h3 class="subtitle is-5">Comparison LMPC, NMPC, and DRL (Our method) for getting up from initial supine pose</h3>
+              <video id="sim_face_up" muted autoplay loop playsinline preload="metadata" style="width:100%; border-radius:10px;">
+                <source src="./videos/faceup_comparison.mp4" type="video/mp4">
+                Comparison LMPC, NMPC, and DRL (Our method) for getting up from initial supine pose.
+              </video>
+            </div> -->
+            <!-- <div class="column is-full">
+              <h3 class="subtitle is-5">Comparison LMPC, NMPC, and DRL (Our method) for getting up from initial prone pose</h3>
+              <video id="sim_face_down" muted autoplay loop playsinline preload="metadata" style="width:100%; border-radius:10px;">
+                <source src="./videos/facedown_comparison.mp4" type="video/mp4">
+                Comparison LMPC, NMPC, and DRL (Our method) for getting up from initial prone pose.
+              </video>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Real Robot Experiments Section -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <h2 class="title is-2 has-text-centered">Real Robot Experiments</h2>
+
+      <!-- Demos -->
+      <h3 class="title is-3" style="margin-top: 4rem;"> Demonstration</h3>
+      <div class="grid-demos">
+        <!-- Row 1 -->
+        <div class="video-item">
+          <video muted autoplay loop playsinline preload="metadata" style="width: 100%; border-radius: 10px;">
+            <source src="./videos/matrixpose.mp4" type="video/mp4">
+          </video>
+          <div class="caption">Matrix Pose</div>
+        </div>
+
+
+      </div>
+
+
+
+
+
+    </div>
+  </section>
+
+
+  <section>
+    <div class="container">
+        <br>
+        <h2 class="title is-3">BibTeX</h2>
+        <pre><code>@article{,
+    title={Pickup Momentum: Whole-Body Optimal Pick-and-Place of Heavy Payloads on
+                Humanoids with Trajectory Optimization and Model Predictive Control},
+    author={Chuong Nguyen, Nhan Duong, Vu Dao, Huy Dao,, Truong Nguyen, and Quan Nguyen},
+    booktitle={},
+    year={2026}
+    }</code></pre>
+        </div>
+  </section>
+
+  <!-- <section>
+    <div class="container">
+    <br>
+    <h2 class="title is-3">Related Works</h2>
+    <article class="columns">
+      <div class="column is-3">
+        <picture class="image">
+          <img src="images/3d-vitac.png">
+        </picture>
+      </div>
+      <div class="column">
+        <div class="content">
+          <p>
+            <b>3D-ViTac: Learning Fine-Grained Manipulation with Visuo-Tactile Sensing</b><br>
+              <a href="https://binghao-huang.github.io/">Binghao Huang</a><sup>1</sup>,
+              <a href="https://wangyixuan12.github.io/">Yixuan Wang</a><sup>1</sup>,
+              <a href="">Xinyi Yang</a><sup>2</sup>,
+              <a href="https://yyueluo.com/">Yiyue Luo</a><sup>3</sup>,
+              <a href="https://yunzhuli.github.io/">Yunzhu Li</a><sup>1</sup>
+
+            
+            <br>
+            <em>Conference on Robot Learning (<b>CoRL</b>), 2024</em><br>
+            <a href="https://binghao-huang.github.io/3D-ViTac/" target="_blank">[<u>Webpage</u>]</a>
+            <a href="https://openreview.net/forum?id=bk28WlkqZn" target="_blank">[<u>Paper</u>]</a>
+            <a href="https://docs.google.com/document/d/1XGyn-iV_wzRmcMIsyS3kwcrjxbnvblZAyigwbzDsX-E/edit?tab=t.0#heading=h.ny8zu0pq9mxy" target="_blank">[<u>Hardware Tutorial</u>]</a>
+            <a href="https://www.youtube.com/watch?v=ZN3mHMNZC7Q" target="_blank">[<u>Video</u>]</a>
+          </p>
+        </div>
+      </div>
+    </article>
+    <article class="columns">
+      <div class="column is-3">
+        <video id="teaser_video" width=99% muted autoplay loop style="border-radius:10px; ">
+          <source src="videos/touchinthewild.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="column">
+        <div class="content">
+          <p>
+            <b>Touch in the Wild:
+              Learning Fine-Grained Manipulation with a Portable Visuo-Tactile Gripper</b><br>
+              <a href="">Xinyue Zhu<sup>*</sup><sup>,</sup><sup>1</sup></a>,
+              <a href="https://binghao-huang.github.io/">Binghao Huang<sup>*</sup><sup>,</sup><sup>1</sup></a>,
+              <a href="https://yunzhuli.github.io/">Yunzhu Li</sup><sup>1</sup></a> </br>
+              
+              <em>Conference on Neural Information Processing Systems (<b>NeurIPS</b>), 2025</em><br>
+              <font color="firebrick"><b>Best Demo Award</b></font> at <b>RSS 2025</b> Workshop on Robot Hardware-Aware Intelligence <a href="https://rss-hardware-intelligence.github.io/" target="_blank"><small>[Link]</small></a><br>
+              <a href="https://binghao-huang.github.io/touch_in_the_wild/" target="_blank">[<u>Webpage</u>]</a>
+              <a href="https://openreview.net/forum?id=ZGqqPMQDEk" target="_blank">[<u>Paper</u>]</a> </br>
+            </p>
+          </p>
+        </div>
+      </div>
+    </article>
+    </div>
+  </section> -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This website template is borrowed from <a href="https://github.com/nerfies/nerfies.github.io">Here</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
